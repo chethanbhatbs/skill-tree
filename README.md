@@ -12,20 +12,20 @@ List all installed custom skills with descriptions, usage examples, and file pat
 **One-line install:**
 
 ```bash
-gh repo clone chethanbhatbs/help-skill ~/.claude/skills/help
+gh repo clone chethanbhatbs/skill-tree ~/.claude/skills/skill-tree
 ```
 
 **Manual install:**
 
 ```bash
-git clone https://github.com/chethanbhatbs/help-skill.git
-cp -r help-skill/ ~/.claude/skills/help/
+git clone https://github.com/chethanbhatbs/skill-tree.git
+cp -r help-skill/ ~/.claude/skills/skill-tree/
 ```
 
 **Verify it's installed:**
 
 ```bash
-ls ~/.claude/skills/help/
+ls ~/.claude/skills/skill-tree/
 ```
 
 You should see `SKILL.md` (and any other skill files).
@@ -62,7 +62,7 @@ Skills are markdown files in `~/.claude/skills/` that give Claude Code specializ
 ## Uninstall
 
 ```bash
-rm -rf ~/.claude/skills/help
+rm -rf ~/.claude/skills/skill-tree
 ```
 
 ## License
